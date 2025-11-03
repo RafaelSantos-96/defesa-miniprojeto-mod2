@@ -6,6 +6,15 @@ public class Consulta {
     private String nomePaciente;
     private LocalDateTime dataHora;
 
+    @Override
+public String toString() {
+    return "Consulta{" +
+            "nutricionista=" + nutricionista +
+            ", nomePaciente='" + nomePaciente + '\'' +
+            ", dataHora=" + dataHora +
+            '}';
+}
+
     // Construtor com todas as propriedades
     public Consulta(Nutricionista nutricionista, String nomePaciente, LocalDateTime dataHora) {
         this.nutricionista = nutricionista;

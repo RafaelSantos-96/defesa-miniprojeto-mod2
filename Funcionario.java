@@ -4,6 +4,15 @@ public class Funcionario {
     private int idade;
     private double salario;
 
+    @Override
+public String toString() {
+    return "Funcionario{" +
+            "nome='" + nome + '\'' +
+            ", idade=" + idade +
+            ", salario=" + salario +
+            '}';
+}
+
     // constru. vazio
        public Funcionario() {
        
@@ -37,3 +46,4 @@ public class Funcionario {
 
 
 }
+

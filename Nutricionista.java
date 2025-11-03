@@ -1,6 +1,16 @@
+
 public class Nutricionista extends Funcionario {
 
     int numeroConsultas;
+
+    @Override
+public String toString() {
+    return "Nutricionista{" +
+            "nome='" + super.toString() + '\'' +
+            ", numeroConsultas=" + numeroConsultas +
+            '}';
+}
+
 
     public Nutricionista() {
 
@@ -17,3 +27,5 @@ public class Nutricionista extends Funcionario {
 
 
 }
+
+
